@@ -1,0 +1,38 @@
+/* 
+    Created on : Jun 9, 2018, 12:46:58 PM
+    Author     : Wang Zheng-Yu <zhengyuw@kth.se>
+*/
+
+.onHover{
+    -fx-background-color: #1af24c;
+}
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: whitesmoke;
+    -fx-legend-visible: true;
+}
+
+.chart-content {
+    -fx-padding: 30px;    
+}
+
+.chart-title {
+    -fx-text-fill: #012e51;
+    -fx-font-size: 1.6em;
+}
+
+.axis-label {
+    -fx-text-fill: #012e51;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke:#505050;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #505050;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #0f1478;
+}
