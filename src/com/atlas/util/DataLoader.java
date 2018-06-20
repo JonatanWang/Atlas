@@ -29,7 +29,7 @@ public class DataLoader {
         List<Data> points = new ArrayList<>();
         try {
             // Create a URL for the desired page
-            URL url = new URL("http://daily.digpro.se/bios/servlet/bios.servlets.web.RecruitmentTestServlet");
+            URL url = new URL("http://server.address.se");
 
             try ( // Read all the text returned by the server
                     BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream(), StandardCharsets.ISO_8859_1))) {
